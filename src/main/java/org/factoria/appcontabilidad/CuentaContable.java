@@ -22,6 +22,12 @@ public class CuentaContable {
         switch (name) {
             case "MERCADERIAS":
                 return 300;
+            case "PROVISIONES PARA RIESGOS Y GASTOS":
+                return 14;
+            case "PROVISIÓN PARA RESPONSABILIDADES":
+                return 142;
+            case "OBLIGACIONES Y BONOS":
+                return 150;
             default:
                 return 0;
         }

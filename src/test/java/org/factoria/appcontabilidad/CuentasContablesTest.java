@@ -23,6 +23,9 @@ public class CuentasContablesTest {
     @Test
     public void devuelveelid(){
         CuentaContable c = new CuentaContable();
+        assertEquals(14, c.id("PROVISIONES PARA RIESGOS Y GASTOS"));
+        assertEquals(142, c.id("PROVISIÓN PARA RESPONSABILIDADES"));
+        assertEquals(150, c.id("OBLIGACIONES Y BONOS"));
         assertEquals(300, c.id("MERCADERIAS"));
     }
 }
