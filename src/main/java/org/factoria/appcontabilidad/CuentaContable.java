@@ -16,6 +16,15 @@ public class CuentaContable {
             default:
                 return "";
         }
-
     }
+
+    public int id(String name) {
+        switch (name) {
+            case "MERCADERIAS":
+                return 300;
+            default:
+                return 0;
+        }
+    }
+
 }

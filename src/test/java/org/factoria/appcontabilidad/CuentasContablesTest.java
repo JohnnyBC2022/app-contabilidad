@@ -20,4 +20,9 @@ public class CuentasContablesTest {
                 c.nombreDeCuenta(300));
     }
 
+    @Test
+    public void devuelveelid(){
+        CuentaContable c = new CuentaContable();
+        assertEquals(300, c.id("MERCADERIAS"));
+    }
 }
